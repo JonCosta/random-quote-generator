@@ -1,7 +1,9 @@
+$bg-color: #204566;
+$jumbo-color: #F45B69; 
 $roundness: 50%;
 
 body {
-    background-color: #333;
+    background-color: $bg-color;
 }
 
 #title {
@@ -9,15 +11,9 @@ body {
 }
 
 #quoteJumbo {
-    background-color: #fdd;
-    border-bottom-left-radius: $roundness;
-    border-bottom-right-radius: $roundness;
-    border-top-left-radius: $roundness;
-    border-top-right-radius: $roundness;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding-bottom: 200px;
-    padding-top: 200px;
+    background-color: $jumbo-color;
+    box-shadow: 7px 7px #FFD166;
+    margin-top: 10%;
 }
 
 #quoteBtn {

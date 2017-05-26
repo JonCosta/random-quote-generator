@@ -1,19 +1,13 @@
 body {
-  background-color: #333; }
+  background-color: #204566; }
 
 #title {
   text-align: center; }
 
 #quoteJumbo {
-  background-color: #fdd;
-  border-bottom-left-radius: 50%;
-  border-bottom-right-radius: 50%;
-  border-top-left-radius: 50%;
-  border-top-right-radius: 50%;
-  margin-left: 10%;
-  margin-right: 10%;
-  padding-bottom: 200px;
-  padding-top: 200px; }
+  background-color: #F45B69;
+  box-shadow: 7px 7px #FFD166;
+  margin-top: 10%; }
 
 #quoteBtn {
   margin: 0 auto; }
