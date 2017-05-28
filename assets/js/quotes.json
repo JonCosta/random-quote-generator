@@ -1,72 +1,58 @@
 {
     "quotes" : [
         {
-            "id": 1,
             "phrase": "Have patience. All things are difficult before they become easy.",
             "author": "Saadi"
         },
         {
-            "id": 2,
             "phrase": "The best preparation for tomorrow is doing your best today.",
             "author": "H. Jackson Brown Jr."
         },
         {
-            "id": 3,
             "phrase": "There is only one happiness in life, to love and be loved.",
             "author": "George Sand"
         },
         {
-            "id": 4,
             "phrase": "Life is 10% what happens to you and 90% how you react to it.",
             "author": "Charles R. Swindoll"
         },
         {
-            "id": 5,
             "phrase": "We must let go of the life we have planned, so as to accept the one that is waiting for us.",
             "author": "Joseph Campbell"
         },
         {
-            "id": 6,
             "phrase": "The greatest gift of life is friendship, and I have received it.",
             "author": "Hubert H. Humphrey"
         },
         {
-            "id": 7,
             "phrase": "Smile in the mirror. Do that every morning and you'll start to see a big difference in your life.",
             "author": "Yoko Ono"
         },
         {
-            "id": 8,
             "phrase": "Do not take life too seriously. You will never get out of it alive.",
             "author": "Elbert Hubbard"
         },
         {
-            "id": 9,
             "phrase": "Good, better, best. Never let it rest. 'Til your good is better and your better is best.",
             "author": "St. Jerome"
         },
         {
-            "id": 10,
             "phrase": "Share your smile with the world. It's a symbol of friendship and peace.",
             "author": "Christie Brinkley"
         },
         {
-            "id": 11,
             "phrase": "One of the most beautiful qualities of truye friendship is to understand and to be understood.",
             "author": "Lucius Annaeus Seneca"
         },
         {
-            "id": 12,
             "phrase": "Death is not the greatest loss in life. The greatest loss is what dies inside us while we live.",
             "author": "Norman Cousins"
         },
         {
-            "id": 13,
             "phrase": "Being deeply loved by someone gives you strength, while loving someone deeply gives you courage.",
             "author": "Lao Tsu"
         },
         {
-            "id": 14,
             "phrase": "I have no special talent. I am only passionately curious.",
             "author": "Albert Einstein"
         },
