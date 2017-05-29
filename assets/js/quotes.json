@@ -57,8 +57,12 @@
             "author": "Albert Einstein"
         },
         {
-             "phrase": "Yesterday is history. Tomorrow is a mystery... But today is a gift. That is why it's called Present",
+             "phrase": "Yesterday is history. Tomorrow is a mystery... But today is a gift. That is why it's called Present.",
              "author": "Master Oogway"
+        },
+        {
+            "phrase": "Carry out a random act of kindness, with no expectation of reward, safe in the knowledge that one day someone might do the same for you.",
+            "author": "Princess Diana"
         }
     ]
 }

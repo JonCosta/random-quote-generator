@@ -2,14 +2,34 @@ body {
   background-color: #204566; }
 
 #title {
+  font-family: "Bungee", cursive;
   text-align: center; }
 
 #quoteJumbo {
   background-color: #F45B69;
-  box-shadow: 7px 7px #FFD166;
+  box-shadow: 7px 7px #F0A202;
   margin-top: 10%; }
 
 #quoteBtn {
-  margin: 0 auto; }
+  background-color: #F7B267;
+  box-shadow: 3px 3px 5px;
+  display: block;
+  font-size: 4vh;
+  margin-left: auto;
+  margin-right: auto; }
+
+#quoteBtn:hover {
+  background-color: #f7b974; }
+
+#quoteBtn:active {
+  border: 0; }
+
+#quote h2, #quote h3 {
+  font-family: "Montserrat", sans-serif; }
+
+.my-twitter i {
+  color: white;
+  font-size: 6vh;
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */

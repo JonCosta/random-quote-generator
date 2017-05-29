@@ -1,21 +1,55 @@
 $bg-color: #204566;
-$jumbo-color: #F45B69; 
-$roundness: 50%;
+$jumbo-color: #F45B69;
+$jumbo-shadow-color: #F0A202;
+$quote-btn-color: #F7B267;
+
+$quote-font: 'Montserrat', sans-serif;
+$title-font: 'Bungee', cursive;
 
 body {
     background-color: $bg-color;
 }
 
 #title {
+    font-family: $title-font;
     text-align: center;
 }
 
 #quoteJumbo {
     background-color: $jumbo-color;
-    box-shadow: 7px 7px #FFD166;
+    box-shadow: 7px 7px $jumbo-shadow-color;
     margin-top: 10%;
 }
 
 #quoteBtn {
-    margin: 0 auto;
+    background-color: $quote-btn-color;
+    box-shadow: 3px 3px 5px;    
+    display: block;
+    font-size: 4vh;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#quoteBtn:hover {
+    background-color: #f7b974;
+}
+
+#quoteBtn:active {
+    border: 0;
+}
+
+
+#quote {
+    h2, h3 {
+        font-family: $quote-font;
+    }
+}
+
+.my-twitter {
+    i {
+        color: white;
+        font-size: 6vh;
+        text-align: center;
+    }
 }
