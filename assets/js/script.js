@@ -5,7 +5,7 @@ $(function() {
     // Generates when the the page is loaded
     randomQuote();
 
-    // 
+    // Collects a new quote after pressing the button
     $("#quoteBtn").click(function() {
         randomQuote();
     });
