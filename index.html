@@ -1,37 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Bungee|Montserrat" rel="stylesheet">
-        <link rel="stylesheet" href="./assets/css/main.css">
-        <title>Random Quote Generator</title>
-    </head>
 
-    <body>
-        <div class="container">
-            <div class="jumbotron" id="quoteJumbo">
-                <h1 id="title">Random Quote Generator</h1>
-                <div id="quote">
-                    <h2>"One day I will hold a beautiful quote..."</h2>
-                    <h3>Mr. Quote Holder</h3>
-                </div>
-                
-                <button id="quoteBtn" class="btn">Give me a quote!</button>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Bungee|Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <title>Random Quote Generator</title>
+</head>
 
-                <a href="https://twitter.com/intent/tweet" class="twitter-share-button my-twitter" 
-                target="_blank" data-toggle="tooltip" title="Share with Twitter!">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                </a>
+<body>
+  <div class="container">
+    <div class="jumbotron" id="quoteJumbo">
+      <h1 id="title">Random Quote Generator</h1>
+      <div id="quote">
+        <h2>"One day I will hold a beautiful quote..."</h2>
+        <h3>Mr. Quote Holder</h3>
+      </div>
 
-            </div>
+      <div class="btn-group-wrap">
+        <div class="btn-group my-group">
+          <button id="quoteBtn" class="btn">Give me a quote!</button>
+
+          <button class="btn" id="tweetBtn">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+          </button>
         </div>
+      </div>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <script src="./assets/js/script.js"></script>
-    </body>
+    </div>
+  </div>
+
+  <footer id="myFooter">
+    <p class="text-center">Coded by Jonathan Costa. 2017</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="./assets/js/script.js"></script>
+</body>
+
 </html>

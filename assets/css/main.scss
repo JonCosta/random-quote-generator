@@ -1,55 +1,106 @@
-$bg-color: #204566;
-$jumbo-color: #C64D4D;
-$jumbo-shadow-color: #F0A202;
-$quote-btn-color: #E1A25E;
+$bg-color: #474973;
+$font-color: #f7f4f3;
+$footer-color: #181a27;
+$jumbo-color: #a380a4;
+$jumbo-shadow-color: #ef5b5b;
+$quote-btn-color: #f7b56a;
 
 $quote-font: 'Montserrat', sans-serif;
 $title-font: 'Bungee', cursive;
 
 body {
-    background-color: $bg-color;
+  background-color: $bg-color;
+  height: 100%;
 }
 
+// Page's title part
 #title {
-    font-family: $title-font;
-    text-align: center;
+  font-family: $title-font;
+  color: $font-color;
+  margin-bottom: 50px;
+  margin-top: -20px;
+  text-align: center;
 }
 
+// Jumbo containing all elements
 #quoteJumbo {
-    background-color: $jumbo-color;
-    box-shadow: 7px 7px $jumbo-shadow-color;
-    margin-top: 10%;
+  background-color: $jumbo-color;
+  box-shadow: 3px 3px 5px;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
 
-#quoteBtn {
-    background-color: $quote-btn-color;
-    box-shadow: 3px 3px 5px;    
-    display: block;
-    font-size: 4vh;
-    margin-left: auto;
-    margin-right: auto;
+// Section of the quote's text and author
+#quote {
+  margin-bottom: 50px;
 
+  h2, h3 {
+    color: $font-color;
+    font-family: $quote-font;
+    font-weight: bold;
+    font-size: 5vh;
+  }
+}
+
+.btn-group-wrap {
+  text-align: center;
+}
+
+.my-group {
+  margin: 0 auto;
+  text-align: center;
+  width: inherit;
+  display: inline-block;
+}
+
+// Button to generate new quote
+#quoteBtn {
+  background-color: $quote-btn-color;
+  font-size: 4vh;
+  outline: none;
 }
 
 #quoteBtn:hover {
-    background-color: #f7b974;
+  background-color: #f9cfa0;
 }
 
 #quoteBtn:active {
-    border: 0;
+  border: 0;
 }
 
-
-#quote {
-    h2, h3 {
-        font-family: $quote-font;
-    }
+#quoteBtn:focus,
+#quoteBtn:active {
+  border: 1px solid $quote-btn-color;
 }
 
-.my-twitter {
-    i {
-        color: white;
-        font-size: 6vh;
-        text-align: center;
-    }
+// Button to share quote on Twitter
+#tweetBtn {
+  background-color: $quote-btn-color;
+  border-left: 1px solid #cb9557;
+  display: block;
+  font-size: 4vh;
+  margin-left: auto;
+  margin-right: auto;
+  outline: none;  
+}
+
+#tweetBtn:hover {
+  background-color: #f9cfa0;
+}
+
+#tweetBtn:focus, #tweetbtn:active {
+  border: 1px solid $quote-btn-color;
+  border-left: 1px solid #cb9557;
+}
+
+// Footer section
+#myFooter {
+  background-color: $footer-color;
+  line-height: 50px;
+  padding: 0 20px;
+
+  p {
+    margin: auto;
+    color: $font-color;
+  }
 }

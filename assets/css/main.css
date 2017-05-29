@@ -1,35 +1,74 @@
 body {
-  background-color: #204566; }
+  background-color: #474973;
+  height: 100%; }
 
 #title {
   font-family: "Bungee", cursive;
+  color: #f7f4f3;
+  margin-bottom: 50px;
+  margin-top: -20px;
   text-align: center; }
 
 #quoteJumbo {
-  background-color: #F45B69;
-  box-shadow: 7px 7px #F0A202;
-  margin-top: 10%; }
+  background-color: #a380a4;
+  box-shadow: 3px 3px 5px;
+  margin-top: 20px;
+  margin-bottom: 50px; }
+
+#quote {
+  margin-bottom: 50px; }
+  #quote h2, #quote h3 {
+    color: #f7f4f3;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 5vh; }
+
+.btn-group-wrap {
+  text-align: center; }
+
+.my-group {
+  margin: 0 auto;
+  text-align: center;
+  width: inherit;
+  display: inline-block; }
 
 #quoteBtn {
-  background-color: #F7B267;
-  box-shadow: 3px 3px 5px;
-  display: block;
+  background-color: #f7b56a;
   font-size: 4vh;
-  margin-left: auto;
-  margin-right: auto; }
+  outline: none; }
 
 #quoteBtn:hover {
-  background-color: #f7b974; }
+  background-color: #f9cfa0; }
 
 #quoteBtn:active {
   border: 0; }
 
-#quote h2, #quote h3 {
-  font-family: "Montserrat", sans-serif; }
+#quoteBtn:focus,
+#quoteBtn:active {
+  border: 1px solid #f7b56a; }
 
-.my-twitter i {
-  color: white;
-  font-size: 6vh;
-  text-align: center; }
+#tweetBtn {
+  background-color: #f7b56a;
+  border-left: 1px solid #cb9557;
+  display: block;
+  font-size: 4vh;
+  margin-left: auto;
+  margin-right: auto;
+  outline: none; }
+
+#tweetBtn:hover {
+  background-color: #f9cfa0; }
+
+#tweetBtn:focus, #tweetbtn:active {
+  border: 1px solid #f7b56a;
+  border-left: 1px solid #cb9557; }
+
+#myFooter {
+  background-color: #181a27;
+  line-height: 50px;
+  padding: 0 20px; }
+  #myFooter p {
+    margin: auto;
+    color: #f7f4f3; }
 
 /*# sourceMappingURL=main.css.map */

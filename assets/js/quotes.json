@@ -1,68 +1,68 @@
 {
-    "quotes" : [
-        {
-            "phrase": "Have patience. All things are difficult before they become easy.",
-            "author": "Saadi"
-        },
-        {
-            "phrase": "The best preparation for tomorrow is doing your best today.",
-            "author": "H. Jackson Brown Jr."
-        },
-        {
-            "phrase": "There is only one happiness in life, to love and be loved.",
-            "author": "George Sand"
-        },
-        {
-            "phrase": "Life is 10% what happens to you and 90% how you react to it.",
-            "author": "Charles R. Swindoll"
-        },
-        {
-            "phrase": "We must let go of the life we have planned, so as to accept the one that is waiting for us.",
-            "author": "Joseph Campbell"
-        },
-        {
-            "phrase": "The greatest gift of life is friendship, and I have received it.",
-            "author": "Hubert H. Humphrey"
-        },
-        {
-            "phrase": "Smile in the mirror. Do that every morning and you'll start to see a big difference in your life.",
-            "author": "Yoko Ono"
-        },
-        {
-            "phrase": "Do not take life too seriously. You will never get out of it alive.",
-            "author": "Elbert Hubbard"
-        },
-        {
-            "phrase": "Good, better, best. Never let it rest. 'Til your good is better and your better is best.",
-            "author": "St. Jerome"
-        },
-        {
-            "phrase": "Share your smile with the world. It's a symbol of friendship and peace.",
-            "author": "Christie Brinkley"
-        },
-        {
-            "phrase": "One of the most beautiful qualities of truye friendship is to understand and to be understood.",
-            "author": "Lucius Annaeus Seneca"
-        },
-        {
-            "phrase": "Death is not the greatest loss in life. The greatest loss is what dies inside us while we live.",
-            "author": "Norman Cousins"
-        },
-        {
-            "phrase": "Being deeply loved by someone gives you strength, while loving someone deeply gives you courage.",
-            "author": "Lao Tsu"
-        },
-        {
-            "phrase": "I have no special talent. I am only passionately curious.",
-            "author": "Albert Einstein"
-        },
-        {
-             "phrase": "Yesterday is history. Tomorrow is a mystery... But today is a gift. That is why it's called Present.",
-             "author": "Master Oogway"
-        },
-        {
-            "phrase": "Carry out a random act of kindness, with no expectation of reward, safe in the knowledge that one day someone might do the same for you.",
-            "author": "Princess Diana"
-        }
-    ]
+  "quotes" : [
+    {
+      "phrase": "Have patience. All things are difficult before they become easy.",
+      "author": "Saadi"
+    },
+    {
+      "phrase": "The best preparation for tomorrow is doing your best today.",
+      "author": "H. Jackson Brown Jr."
+    },
+    {
+      "phrase": "There is only one happiness in life, to love and be loved.",
+      "author": "George Sand"
+    },
+    {
+      "phrase": "Life is 10% what happens to you and 90% how you react to it.",
+      "author": "Charles R. Swindoll"
+    },
+    {
+      "phrase": "We must let go of the life we have planned, so as to accept the one that is waiting for us.",
+      "author": "Joseph Campbell"
+    },
+    {
+      "phrase": "The greatest gift of life is friendship, and I have received it.",
+      "author": "Hubert H. Humphrey"
+    },
+    {
+      "phrase": "Smile in the mirror. Do that every morning and you'll start to see a big difference in your life.",
+      "author": "Yoko Ono"
+    },
+    {
+      "phrase": "Do not take life too seriously. You will never get out of it alive.",
+      "author": "Elbert Hubbard"
+    },
+    {
+      "phrase": "Good, better, best. Never let it rest. 'Til your good is better and your better is best.",
+      "author": "St. Jerome"
+    },
+    {
+      "phrase": "Share your smile with the world. It's a symbol of friendship and peace.",
+      "author": "Christie Brinkley"
+    },
+    {
+      "phrase": "One of the most beautiful qualities of truye friendship is to understand and to be understood.",
+      "author": "Lucius Annaeus Seneca"
+    },
+    {
+      "phrase": "Death is not the greatest loss in life. The greatest loss is what dies inside us while we live.",
+      "author": "Norman Cousins"
+    },
+    {
+      "phrase": "Being deeply loved by someone gives you strength, while loving someone deeply gives you courage.",
+      "author": "Lao Tsu"
+    },
+    {
+      "phrase": "I have no special talent. I am only passionately curious.",
+      "author": "Albert Einstein"
+    },
+    {
+      "phrase": "Yesterday is history. Tomorrow is a mystery... But today is a gift. That is why it's called Present.",
+      "author": "Master Oogway"
+    },
+    {
+      "phrase": "Carry out a random act of kindness, with no expectation of reward, safe in the knowledge that one day someone might do the same for you.",
+      "author": "Princess Diana"
+    }
+  ]
 }
