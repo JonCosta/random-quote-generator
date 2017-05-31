@@ -1,7 +1,8 @@
 $bg-color: #474973;
-$font-color: #f7f4f3;
-$footer-color: #181a27;
-$jumbo-color: #a380a4;
+$font-color: #181a27;
+$footer-color: #253031;
+$footer-font-color: #f1f1f1;
+$jumbo-color: #C64D4D;
 $jumbo-shadow-color: #ef5b5b;
 $quote-btn-color: #f7b56a;
 
@@ -96,11 +97,16 @@ body {
 // Footer section
 #myFooter {
   background-color: $footer-color;
+  bottom: 0;
+  left: 0;
   line-height: 50px;
   padding: 0 20px;
+  position: absolute;
+  width: 100%;
 
   p {
+    color: $footer-font-color;
+    font-weight: bold;
     margin: auto;
-    color: $font-color;
   }
 }
